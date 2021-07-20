@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Admin</title>
+  <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+  <link type="text/css" href="css/login.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light white">
+    <div class="container-fluid text-center">
+      <h2 style="width: 100%;">Auto Attendance Using Face Recognition</h2>
+    </div>
+  </nav>
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="img/login.svg" id="icon" alt="User Icon" height="100px" width="100px" />
+    </div>
+
+    <!-- Login Form -->
+    <form id="login-form">
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="Login Id" required>
+      <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password"required>
+      <input type="submit" class="fadeIn fourth" value="Log In">
+      <div id="error-msg" class="text-danger"></div>
+    </form>
+
+  </div>
+</div>
+<script type="text/javascript" src="/eel.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>
