@@ -8,7 +8,7 @@ import os
 def encode_student_data(student_id):
     # Grabbing the input images in our dataset
     # print("[INFO] quantifying faces..")
-    student_image_path = "dataset/" + student_id
+    student_image_path = os.path.join("dataset", student_id)
     imagePaths = list(paths.list_images(student_image_path))
     encodings_file = "encodings.pickle"
 
